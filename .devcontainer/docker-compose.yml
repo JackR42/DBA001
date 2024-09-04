@@ -1,4 +1,3 @@
-version: "3"
 services:
     svr1:
         build: ./svr1
@@ -20,3 +19,4 @@ services:
             - "2600:1433"
         container_name: svr2
         hostname: sql2
+        
